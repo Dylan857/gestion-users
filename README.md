@@ -6,8 +6,6 @@ El sistema implementa buenas prácticas de desarrollo backend, incluyendo separa
 
 Se ha diseñado como una solución estructurada y extensible, preparada para integrarse con otros servicios o aplicaciones frontend.
 
-> Este proyecto fue desarrollado inicialmente como parte de una evaluación técnica y posteriormente organizado para reflejar buenas prácticas en desarrollo backend con Laravel.
-
 ---
 
 ## 🚀 Características principales
