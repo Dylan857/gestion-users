@@ -1,22 +1,38 @@
-1. Se clona el proyecto.
-2. Se hace el siguiente comando: "composer install" (Se debe tener descargada la ultima version de composer con su ultima version de php)
-3. Se debe crear un archivo llamado .env, con las configuraciones que estan en el .env.example, hay unas llaves que comienzan con DB, ahi se debe cambiar las configuraciones de su base de datos, en mi caso es mysql, pero deberia funcionar en todas las bases de datos relacionales, estos son las llaves: DB_CONNECTION=mysql
-DB_HOST=localhost
-DB_PORT=3306
-DB_DATABASE=prueba-tecnica
-DB_USERNAME=root
-DB_PASSWORD=admin
+# 🧾 Sistema de Gestión Backend con Laravel
 
-cambiar por sus credenciales
+API backend desarrollada en PHP utilizando Laravel, orientada a la gestión de usuarios y operaciones administrativas mediante endpoints REST.
 
-4. Se ejecutan las migraciones con el siguiente comando: "php artisan migrate"
+El sistema implementa buenas prácticas de desarrollo backend, incluyendo separación de responsabilidades, manejo de configuración por entorno y persistencia en base de datos relacional.
 
-5. Ejecutar seeder para user admin: "php artisan db:seed"
+Se ha diseñado como una solución estructurada y extensible, preparada para integrarse con otros servicios o aplicaciones frontend.
 
-6. Para ejecutar el servidor ejecutar el siguiente comando: "php artisan serve"
+> Este proyecto fue desarrollado inicialmente como parte de una evaluación técnica y posteriormente organizado para reflejar buenas prácticas en desarrollo backend con Laravel.
 
-7. Las rutas se encuentra en Routes/api.php, pero igual dejare la coleccion de postman en el repo.
+---
 
-8. credenciales usuario administrador:
-   user: admin@admin.com
-   password: admin123456
+## 🚀 Características principales
+
+- API REST construida con Laravel  
+- Gestión de usuarios con autenticación básica  
+- Persistencia en base de datos relacional (Postgress)  
+- Uso de migraciones y seeders para inicialización de datos  
+- Configuración por variables de entorno (`.env`)  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- PHP  
+- Laravel  
+- Postgress (o cualquier DB relacional compatible)  
+- Composer  
+
+---
+
+## 📦 Instalación y ejecución
+
+1. Clonar el repositorio  
+2. Instalar dependencias:
+
+```bash
+composer install
